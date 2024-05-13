@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration Form</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form action="/submit_registration" method="post">
+  <label for="fname">First Name:</label><br>
+  <input type="text" id="fname" name="fname" required><br>
+  
+  <label for="lname">Last Name:</label><br>
+  <input type="text" id="lname" name="lname" required><br>
+  
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+  
+  <label for="phone">Phone Number:</label><br>
+  <input type="tel" id="phone" name="phone" required><br>
+  
+  <label for="course">Course:</label><br>
+  <select id="course" name="course">
+    <option value="science">Science</option>
+    <option value="mathematics">Mathematics</option>
+    <option value="history">History</option>
+    <option value="አማርኛ">History</option>
+    <option value="Afaan oromoo">History</option>
+    <option value="Information technology">History</option>
+    <option value="Gadaa">History</option>
+    <option value="Safuu">History</option>
+    <option value="ግብረገብ">History</option>
+    <option value="አከባቢ ሳይንስ">History</option>
+    <!-- Add other courses as needed -->
+  </select><br>
+  
+  <label for="dob">Date of Birth:</label><br>
+  <input type="date" id="dob" name="dob" required><br>
+  
+  <label for="gender">Gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br>
+  
+  <input type="submit" value="Register">
+  <input type="reset" value="Reset">
+</form>
+
+</body>
+</html>
+
